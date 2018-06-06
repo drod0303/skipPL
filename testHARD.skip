@@ -1,0 +1,33 @@
+package Square{
+  int height = 5
+  int width = 2
+
+  printArea() -> void{
+    print(height*width)
+  }
+}
+
+void main(){
+  bool temp = 0
+  Square smallSquare = build Square[-]
+  smallSquare.height = 2
+  smallSquare.printArea()
+  print("is this working yet?")
+  skip(3)
+  option(1):
+    print("not going to make it here")
+  option(2):
+    print("not here either")
+  option(3):
+    print("we made it!")
+
+  if(temp){
+    print("not going to make it here until you change temp")
+  }
+  elif(temp==-1){
+    print("can't make it here on a boolean")
+  }
+  else{
+    print("finally...")
+  }
+}
