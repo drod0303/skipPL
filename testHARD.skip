@@ -7,19 +7,19 @@ package Square{
   }
 }
 
+skip this is a comment
+skip what the heck is this comment
+sk
+  block comment
+  wowser this is big
+ip
+
 void main(){
   bool temp = 0
   Square smallSquare = build Square[-]
   smallSquare.height = 2
   smallSquare.printArea()
   print("is this working yet?")
-  skip(3)
-  option(1):
-    print("not going to make it here")
-  option(2):
-    print("not here either")
-  option(3):
-    print("we made it!")
 
   if(temp){
     print("not going to make it here until you change temp")

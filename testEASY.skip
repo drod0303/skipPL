@@ -1,3 +1,4 @@
-void main(){
-  print("hello world")
-}
+main:
+  visible hello world
+  num x = 2
+  visible x
