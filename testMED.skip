@@ -1,3 +1,11 @@
 main:
   print "hello world"
+  num x = 2
+  print x
+  scan "what is your name" name
+  print name
+  sk
+    comment
+    block
+  ip
   skip single line comment miranda is the best and i love her so much == true
